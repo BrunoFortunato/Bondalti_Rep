@@ -1,0 +1,9 @@
+{
+	"name": "BondaltiDataFactory",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dc5bbcd4-d10e-4184-bc18-1e0c38eb1928",
+		"tenantId": "ae271a07-818c-499d-b679-534a90319a44"
+	}
+}
