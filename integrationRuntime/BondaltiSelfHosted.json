@@ -1,0 +1,6 @@
+{
+	"name": "BondaltiSelfHosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
