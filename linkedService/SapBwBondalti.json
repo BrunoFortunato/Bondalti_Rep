@@ -9,10 +9,10 @@
 			"systemNumber": "00",
 			"clientId": "100",
 			"userName": "Singularity",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0ZDhjNzlmMy0yMWFhLTRjNDItODhkZC03ZWM0MjczOTcxYmEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0MTNjOTFmNC1lYjkzLTQ1OGYtOGEyZS03OWQ2MTNmZjY5ZjgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
-			"referenceName": "BondaltiSelfHosted",
+			"referenceName": "BondaltiSelfHostedRF",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
