@@ -20,9 +20,11 @@
 						"query": "SELECT\n  { [006EI54BIT4FLYAYL0Z6MOBPO].Members }\nON COLUMNS,\n  { [006EI54BIT4FLY9EO5HGDVCR0].Members }\nDIMENSION PROPERTIES\n  LEVEL_NUMBER\nON ROWS\nFROM\n  [0PA_C01/Z0PA_C01_50MIG_R15016_PMC]\n    SAP VARIABLES\n[0P_FPER] INCLUDING [0FISCPER].[K42022012]\n[0P_COCD] INCLUDING [0COMP_CODE].[7700]"
 					},
 					"sink": {
-						"type": "SqlServerSink",
+						"type": "AzureSqlSink",
 						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
+						"sqlWriterUseTableLock": false,
+						"tableOption": "autoCreate",
+						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
 					"translator": {
@@ -42,8 +44,12 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "SQL_Server",
-						"type": "DatasetReference"
+						"referenceName": "AzureSqlTable",
+						"type": "DatasetReference",
+						"parameters": {
+							"Schema": "dbo",
+							"TableName": "TesteRF"
+						}
 					}
 				]
 			}
