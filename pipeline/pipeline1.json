@@ -29,6 +29,58 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "[006EI54BIT4FLY9EO5HGDVCR0].[LEVEL_NUMBER]",
+									"type": "String"
+								},
+								"sink": {
+									"name": "1",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "[006EI54BIT4FLYAYL0Z6MOBPO].[006EI54BIT4FLYBA91B75BXHO]",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "2",
+									"physicalType": "Decimal"
+								}
+							},
+							{
+								"source": {
+									"name": "[006EI54BIT4FLYAYL0Z6MOBPO].[006EI54BIT4FLYAYL0Z6MOI18]",
+									"type": "String"
+								},
+								"sink": {
+									"name": "3",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "[006EI54BIT4FLYAYL0Z6MOBPO].[006EI54BIT4FLYBA91B75BR64]",
+									"type": "String"
+								},
+								"sink": {
+									"name": "4",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "[006EI54BIT4FLYAYL0Z6MOBPO].[006EI54BIT4FLYAYL0Z6MOOCS]",
+									"type": "String"
+								},
+								"sink": {
+									"name": "5",
+									"physicalType": "String"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
